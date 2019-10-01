@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>luyentap</title>
+</head>
+<body>
+<script>
+    let name = prompt('Ten dang nhap');
+    if (name == 'Admin') {
+        let password = prompt('Nhap password');
+        if (password) {
+            if (password == 'TheMaster') {
+                alert('welcome');
+            } else {
+                alert('Wrong password')
+            }
+        } else {
+            alert('Canceled');
+        }
+    } else {
+        if (name) {
+            alert('I don’t know you')
+        } else {
+            alert('Canceled');
+        }
+    }
+</script>
+</body>
+</html>
